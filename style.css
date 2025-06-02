@@ -11,7 +11,6 @@ url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=
 }
 *{
 font-weight: 400;
-
 }
 body{
 color: var(--branco);
@@ -55,7 +54,6 @@ background-color: var(--fundo-texto);
 border: 2px solid var(--borda);
 margin-top: 32px;
 padding: 24px;
-
 }
 .parametro-titulo{
 font-family: var(--roboto-mono);
@@ -73,46 +71,6 @@ justify-content: center;
 width: 50%;
 margin: 0 auto;
 }
-@media screen and (min-width: 768px) {/*barra azul de fundo*/
-.barra{
-background-color: var(--fundo-senha);
-height: 30px;
-width: 100%;
-
-}
-.forca{
-height: 30px;
-position: relative; /*sobrepor a barra de fundo*/
-bottom: 30px;
-}
-.fraca{
-width: 25%;
-background-color: #E71B32;
-}
-.media{
-width: 50%;
-background-color: #faf408;
-
-}
-.forte{
-width: 100%;
-background-color: #00ff85;
-}
-/*deixa a legende fraca, média, forte em linha*/
-.parametro-senha-textos{
-display: flex;
-justify-content: space-between;}
-.parametro-coluna__senha{
-flex-direction: row;
-}
-}
-
-
-
-
-
-
-
 .parametro-senha-botoes{
 display: flex;
 justify-content: center;
@@ -131,4 +89,35 @@ border-bottom: 2px solid var(--borda);
 padding: 24px;
 margin: 0px;
 font-size: 24px;
+}
+@media screen and (min-width: 768px) {/*barra azul de fundo*/
+.barra{
+background-color: var(--fundo-senha);
+height: 30px;
+width: 100%;
+}
+.forca{
+height: 30px;
+position: relative; /*sobrepor a barra de fundo*/
+bottom: 30px;
+}
+.fraca{
+width: 25%;
+background-color: #E71B32;
+}
+.media{
+width: 50%;
+background-color: #faf408;
+}
+.forte{
+width: 100%;
+background-color: #00ff85;
+}
+/*deixa a legende fraca, média, forte em linha*/
+.parametro-senha-textos{
+display: flex;
+justify-content: space-between;}
+.parametro-coluna__senha{
+flex-direction: row;
+}
 }
