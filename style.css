@@ -90,7 +90,7 @@ padding: 24px;
 margin: 0px;
 font-size: 24px;
 }
-@media screen and (min-width: 768px) {/*barra azul de fundo*/
+/*barra azul de fundo*/
 .barra{
 background-color: var(--fundo-senha);
 height: 30px;
@@ -116,7 +116,9 @@ background-color: #00ff85;
 /*deixa a legende fraca, média, forte em linha*/
 .parametro-senha-textos{
 display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
 .parametro-coluna__senha{
 flex-direction: row;
 }
