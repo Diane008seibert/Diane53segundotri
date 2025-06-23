@@ -40,6 +40,7 @@ border: none;
 color: var(--branco);
 font-family: var(--roboto-mono);
 font-size: 40px;
+
 width: 70%;
 }
 #campo-senha:focus{
@@ -92,6 +93,7 @@ font-size: 24px;
 }
 /*barra azul de fundo*/
 .barra{
+
 background-color: var(--fundo-senha);
 height: 30px;
 width: 100%;
@@ -113,7 +115,7 @@ background-color: #faf408;
 width: 100%;
 background-color: #00ff85;
 }
-/*deixa a legende fraca, média, forte em linha*/
+/*deixa a legenda fraca, média, forte em linha*/
 .parametro-senha-textos{
 display: flex;
 justify-content: space-between;
