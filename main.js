@@ -53,6 +53,7 @@ senha = senha + alfabeto[numeroAleatorio];
 }
 campoSenha.value = senha;
 classificaSenha();
+classificaSenha();
 }function classificaSenha(){
 forcaSenha.classList.remove('fraca', 'media', 'forte');
 if (tamanhoSenha > 11){
